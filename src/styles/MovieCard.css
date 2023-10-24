@@ -1,0 +1,68 @@
+
+.card {
+  background: #00427a;
+  color: #fff;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+  margin: 60px;
+  border-radius: 6px;
+  width: 500px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.img-poster-pelicula {
+  max-width: 100%;
+  height: auto;
+}
+
+.h2-titulo {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+.contenedor-btn{
+  padding: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-ver-detalle  a {
+  background: #fffbe8;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  max-height: 100px;
+  height: 40px;
+  text-decoration: none; 
+  padding: 0;
+  font-size: 15px;
+
+}
+
+.btn-ver-detalle:hover {
+  background: #ffea85;
+}
+
+.btn-agregar-fav {
+  background: #fffbe8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  width: 60px;
+}
+
+.btn-agregar-fav:hover {
+  background: #b5070d;
+}
+

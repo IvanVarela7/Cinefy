@@ -1,0 +1,11 @@
+.footer {
+  background-color: #00162b; /* Color de fondo del footer */
+  color: #fff; /* Color de texto */
+  padding: 20px; /* Espaciado interno */
+  text-align: center;
+  width: 100%; /* Ancho del footer al 100% de la pantalla */
+  position: fixed; /* Fijar el footer en la parte inferior de la pantalla */
+  bottom: 0; /* Fijar el footer en la parte inferior de la pantalla */
+  left: 0; /* Fijar el footer a la izquierda de la pantalla */
+	height: 50px;
+}

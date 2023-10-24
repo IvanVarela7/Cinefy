@@ -1,0 +1,62 @@
+/* MovieCardDetail.css */
+.card-detalle {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.btn-agregar-fav {
+  align-self: flex-end;
+  margin: 5px;
+}
+
+.imagen-y-detalles {
+  display: flex;
+  align-items: flex-start;
+}
+
+.img-poster-pelicula-detalle {
+  max-width: 200px;
+  max-height: 300px;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.h2-titulo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.detalle-pelicula {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.info-adicional {
+  font-size: 14px;
+}
+
+.fecha-lanzamiento {
+  margin: 0;
+  font-weight: 600;
+}
+
+.lenguaje{
+  font-weight: 600;
+}
+.vote-average{
+font-weight: 600;
+}
+.vote-count{
+font-weight: 600;
+}
+.runtime {
+  font-weight: 600;
+}

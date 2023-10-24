@@ -1,0 +1,14 @@
+.contenedor-img404{
+	background-color: #100138;
+	width: 1920px;
+	height: 1080px;
+}
+
+.img-404NotFound {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+		height: 800px;
+}

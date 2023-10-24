@@ -1,0 +1,8 @@
+.contenedor-principal-result{
+	margin-top: 85px;
+  margin-bottom: 90px;
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Define las columnas de la cuadrícula */
+  gap: 20px; /* Espacio entre las tarjetas */
+}
+
